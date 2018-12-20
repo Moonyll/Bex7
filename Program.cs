@@ -13,8 +13,10 @@ namespace Bex7
             int[] numbers = new int[] {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
             for (int i = 0; i <= 9; i++)
             {
-             Console.WriteLine($"{numbers[i]}");
+             Console.WriteLine(numbers[i]);
             }
         }
     }
 }
+/* foreach (int number in numbers.Take(10))) récupère les 10 premiers chiffres
+    Console.WriteLine(numbers[i]);
